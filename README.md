@@ -1,19 +1,30 @@
-Source code for my personal website, `osmianski.com`.
+This is the source code for my personal website, `osmianski.com`.
 
-## Installing Locally
+* [Developing Locally](#developing-locally)
+    * [Installation](#installation)
+    * [Running The Project](#running-the-project) 
 
-1. Clone the project from GitHub:
+## Developing Locally
 
-    ```shell
-    cd ~/projects
-    git clone git@github.com:osmianski/osmianski-com.git
-    ```
+### Prerequisites
+
+
+### Installation
+
+Clone the project from GitHub:
+
+```shell
+cd ~/projects
+git clone git@github.com:osmianski/osmianski-com.git
+```
+
+### Running The Project
    
-2. Start the Docker containers for the project:
+Start the Docker containers for the project:
 
-    ```shell
-    cd ~/projects/osmianski-com
-    ./vendor/bin/sail up
-    ```
+```shell
+cd ~/projects/osmianski-com
+./vendor/bin/sail up
+```
 
-3. Open the local copy of the website in the browser: <http://127.0.0.1:8000/>. 
+Open the local copy of the website in the browser: <http://127.0.0.1:8000/>. 
