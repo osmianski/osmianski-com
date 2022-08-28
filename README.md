@@ -1,6 +1,7 @@
 This is the source code for my personal website, `osmianski.com`.
 
 * [Developing Locally](#developing-locally)
+    * [Prerequisites](#prerequisites)
     * [Installation](#installation)
     * [Running The Project](#running-the-project) 
 
