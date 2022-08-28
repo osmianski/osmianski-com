@@ -8,6 +8,8 @@ This is the source code for my personal website, `osmianski.com`.
 
 ### Prerequisites
 
+1. Install [PHP, Composer, Docker](https://laravel.com/docs/9.x). 
+2. Create an [alias for `sail` command](https://laravel.com/docs/9.x/sail#configuring-a-shell-alias)
 
 ### Installation
 
@@ -24,7 +26,7 @@ Start the Docker containers for the project:
 
 ```shell
 cd ~/projects/osmianski-com
-./vendor/bin/sail up
+sail up
 ```
 
 Open the local copy of the website in the browser: <http://127.0.0.1:8000/>. 
