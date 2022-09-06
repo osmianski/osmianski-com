@@ -2,31 +2,18 @@
 
 namespace App\Console\Commands;
 
+use App\Jobs\SyncBlogPostsFromNotion;
 use Illuminate\Console\Command;
 
 class Sync extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
     protected $signature = 'sync';
-
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
     protected $description = 'Queues a job that syncs from/to Notion';
 
-    /**
-     * Execute the console command.
-     *
-     * @return int
-     */
-    public function handle()
+    public function handle(): int
     {
-        return 0;
+        SyncBlogPostsFromNotion::dispatch();
+
+        return 0; // success code
     }
 }
