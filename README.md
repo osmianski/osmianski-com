@@ -5,7 +5,7 @@ This is the source code for my personal website, `osmianski.com`.
     * [Installation](#installation)
     * [Create Notion Integration](#create-notion-integration)
     * [Share Notion Blog Posts](#share-notion-blog-posts)
-    * [Running The Project](#running-the-project) 
+    * [Run The Project](#run-the-project) 
 
 ## Developing Locally
 
