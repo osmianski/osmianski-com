@@ -1,6 +1,6 @@
 <script setup>
 import { Head } from '@inertiajs/inertia-vue3';
-import Container from '@/Components/Tailwind/Container.vue';
+import Container from '@/Components/Container.vue';
 
 </script>
 <template>
@@ -9,12 +9,6 @@ import Container from '@/Components/Tailwind/Container.vue';
         <meta name="description"
             content="I’m Vlad, a Web developer and entrepreneur. I’m here to create software that is useful, beautiful and inspiring. Currently, it's Web applications (Laravel + Vue + Inertia)." />
     </Head>
-    <div class="fixed inset-0 flex justify-center sm:px-8">
-        <div class="flex w-full max-w-7xl lg:px-8">
-            <div
-                class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
-        </div>
-    </div>
     <Container>
         <div class="max-w-2xl">
             <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
@@ -53,6 +47,95 @@ import Container from '@/Components/Tailwind/Container.vue';
                     </svg>
                 </a>
             </div>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Aliquam ut porttitor leo a. Eget magna fermentum iaculis eu non
+                diam. Sit amet justo donec enim diam vulputate ut pharetra sit.
+                Justo nec ultrices dui sapien. Cursus vitae congue mauris
+                rhoncus aenean. Bibendum ut tristique et egestas quis ipsum
+                suspendisse. Facilisi nullam vehicula ipsum a arcu cursus vitae.
+                Dignissim enim sit amet venenatis. Varius duis at consectetur
+                lorem. Tincidunt id aliquet risus feugiat in ante metus.
+                Ultrices mi tempus imperdiet nulla malesuada. Aliquet risus
+                feugiat in ante metus dictum at. Mollis nunc sed id semper risus
+                in hendrerit gravida. In aliquam sem fringilla ut morbi
+                tincidunt. Egestas quis ipsum suspendisse ultrices. Mauris augue
+                neque gravida in. Vulputate dignissim suspendisse in est ante in
+                nibh. Elementum nisi quis eleifend quam adipiscing vitae proin.
+            </p>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                Morbi enim nunc faucibus a pellentesque sit amet porttitor eget.
+                Metus dictum at tempor commodo ullamcorper. Cursus risus at
+                ultrices mi tempus. Diam maecenas sed enim ut sem viverra.
+                Pulvinar pellentesque habitant morbi tristique. Scelerisque in
+                dictum non consectetur a erat nam at lectus. Neque volutpat ac
+                tincidunt vitae semper quis lectus nulla. Consequat nisl vel
+                pretium lectus quam id leo. Viverra tellus in hac habitasse
+                platea dictumst. Eros donec ac odio tempor orci dapibus. Neque
+                gravida in fermentum et sollicitudin ac orci phasellus. Molestie
+                ac feugiat sed lectus. Amet nulla facilisi morbi tempus iaculis
+                urna id volutpat lacus. Vivamus at augue eget arcu dictum
+                varius. Consequat semper viverra nam libero. Gravida quis
+                blandit turpis cursus in hac habitasse platea.
+            </p>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                Condimentum lacinia quis vel eros donec ac odio tempor orci.
+                Nisl nunc mi ipsum faucibus vitae aliquet nec. Sed egestas
+                egestas fringilla phasellus faucibus scelerisque. In hac
+                habitasse platea dictumst quisque sagittis purus sit amet. Neque
+                viverra justo nec ultrices dui sapien. Elit at imperdiet dui
+                accumsan sit amet nulla facilisi. Ac turpis egestas sed tempus
+                urna et pharetra pharetra massa. Ultrices dui sapien eget mi
+                proin sed libero. Adipiscing enim eu turpis egestas pretium
+                aenean pharetra magna ac. Sit amet facilisis magna etiam tempor
+                orci eu. Tristique senectus et netus et malesuada fames ac
+                turpis egestas. Nibh praesent tristique magna sit amet. Bibendum
+                at varius vel pharetra vel. Suspendisse potenti nullam ac tortor
+                vitae purus. Turpis egestas sed tempus urna. Vel elit
+                scelerisque mauris pellentesque pulvinar pellentesque habitant
+                morbi tristique. Id venenatis a condimentum vitae sapien
+                pellentesque habitant. Aenean pharetra magna ac placerat
+                vestibulum lectus mauris.
+            </p>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                Augue ut lectus arcu bibendum at. Mattis rhoncus urna neque
+                viverra. Cursus euismod quis viverra nibh cras pulvinar. Eget
+                nunc lobortis mattis aliquam. Augue interdum velit euismod in
+                pellentesque massa. Et egestas quis ipsum suspendisse ultrices.
+                Ultricies mi eget mauris pharetra. Lacus luctus accumsan tortor
+                posuere ac ut consequat semper. Mauris a diam maecenas sed enim.
+                Pellentesque nec nam aliquam sem et tortor consequat. Et netus
+                et malesuada fames ac turpis egestas integer. Nullam eget felis
+                eget nunc lobortis. Enim eu turpis egestas pretium aenean
+                pharetra magna.
+            </p>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                Tincidunt tortor aliquam nulla facilisi. Tellus in metus
+                vulputate eu scelerisque felis imperdiet proin fermentum.
+                Faucibus purus in massa tempor nec. Tincidunt dui ut ornare
+                lectus sit amet. Lobortis feugiat vivamus at augue eget. Nulla
+                aliquet porttitor lacus luctus accumsan tortor posuere ac ut.
+                Lectus urna duis convallis convallis tellus id interdum velit
+                laoreet. Faucibus purus in massa tempor nec feugiat nisl
+                pretium. Viverra suspendisse potenti nullam ac tortor vitae
+                purus. Ac feugiat sed lectus vestibulum mattis ullamcorper velit
+                sed ullamcorper. At consectetur lorem donec massa sapien
+                faucibus et molestie. Morbi tristique senectus et netus et
+                malesuada fames ac. Posuere morbi leo urna molestie at elementum
+                eu facilisis sed. Congue quisque egestas diam in arcu cursus.
+                Natoque penatibus et magnis dis parturient montes nascetur
+                ridiculus. Ut tellus elementum sagittis vitae et. Odio euismod
+                lacinia at quis risus. Sed lectus vestibulum mattis ullamcorper.
+                Aliquam ultrices sagittis orci a scelerisque purus.
+            </p>
         </div>
     </Container>
 </template>
+<script>
+import Layout from "@/Components/Layout.vue";
+
+export default {
+    layout: Layout,
+}
+</script>
