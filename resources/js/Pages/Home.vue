@@ -7,7 +7,7 @@ import Container from '@/Components/Tailwind/Container.vue';
     <Head>
         <title>Vlad Osmianski - Full-Stack Web Developer, Founder And Husband</title>
         <meta name="description"
-            content="I’m Vlad, a Web developer and entrepreneur. I’m here to create things that are useful, beautiful and inspiring. Currently, it's Web applications (Laravel + Vue + Inertia)." />
+            content="I’m Vlad, a Web developer and entrepreneur. I’m here to create software that is useful, beautiful and inspiring. Currently, it's Web applications (Laravel + Vue + Inertia)." />
     </Head>
     <Container>
         <div class="max-w-2xl">
@@ -19,7 +19,7 @@ import Container from '@/Components/Tailwind/Container.vue';
                 Monika and my parrot Johnny in Vilnius, Lithuania.
             </p>
             <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                I’m here, on this Earth, to create things that are useful,
+                I’m here, on this Earth, to create software that is useful,
                 beautiful and inspiring.
             </p>
             <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
