@@ -3,8 +3,6 @@ This is the source code for my personal website, `osmianski.com`.
 * [Developing Locally](#developing-locally)
     * [Prerequisites](#prerequisites)
     * [Installation](#installation)
-    * [Create Notion Integration](#create-notion-integration)
-    * [Share Notion Blog Posts](#share-notion-blog-posts)
     * [Run The Project](#run-the-project)
 
 ## Developing Locally
@@ -22,27 +20,6 @@ Clone the project from GitHub:
 cd ~/projects
 git clone git@github.com:osmianski/osmianski-com.git
 ```
-
-### Create Notion Integration
-
-1. In Settings & members -> Integrations
-   -> Develop your own integrations, click New Integration.
-2. Enter the name "Sync To osmianski.com", click Submit.
-3. Copy the token from Secrets -> Internal Integration Token into the `.env` file:
-
-    ```
-    NOTION_TOKEN=...
-    ``` 
-
-### Share Notion Blog Posts
-
-1. In the Posts database, click Share, and invite
-   the "Sync To osmianski.com" integration.
-2. Copy the database ID from the URL into the `.env` file:
-
-    ```
-    NOTION_BLOG_POSTS=...
-    ``` 
 
 ### Run The Project
 
