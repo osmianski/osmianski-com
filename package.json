@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "dev": "node server",
+        "dev": "vite",
         "build": "vite build && vite build --ssr"
     },
     "dependencies": {

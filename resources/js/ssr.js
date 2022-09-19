@@ -1,4 +1,4 @@
-//import '../css/app.css';
+import '../css/app.css';
 
 import { createSSRApp, h } from 'vue'
 import { renderToString } from 'vue/server-renderer'
